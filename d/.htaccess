@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /d/
+
+RewriteCond %{REQUEST_DIRECTORY} !-d [NC]
+RewriteRule ^(.*)$ index.php?f=$1 [L]
