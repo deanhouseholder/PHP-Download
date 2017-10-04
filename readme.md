@@ -28,7 +28,7 @@ http://example.com/d/path/to/download.tgz?
 
 If you wish to rename the directory to something else, for example "download", you need to make the following modifications:
 
-###.htaccess
+### .htaccess
 
 FROM:<br>
 `RewriteBase /d/`
@@ -37,7 +37,7 @@ TO:<br>
 `RewriteBase /download/`
 
 
-###index.php
+### index.php
 
 FROM:<br>
 `$dpath = "/d";`
